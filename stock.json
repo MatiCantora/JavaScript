@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"modelo": "Macbook Pro",
+		"marca": "Apple",
+		"procesador": "Intel Core i7",
+		"precio": "275000",
+		"stock": "7",
+		"img": "mac.jpg"
+	},
+	{
+		"id": 2,
+		"modelo": "Asus 14",
+		"marca": "Asus",
+		"procesador": "Intel Core i7",
+		"precio": "180000",
+		"stock": "5",
+		"img": "asus.png"
+	},
+	{
+		"id": 3,
+		"modelo": "Lenovo Thinkpad",
+		"marca": "Lenovo",
+		"procesador": "AMD Ryzen 4700",
+		"precio": "210000",
+		"stock": "3",
+		"img": "lenovo.jpg"
+	},
+	{
+		"id": 4,
+		"modelo": "Gigabyte 15,6",
+		"marca": "Gigabyte",
+		"procesador": "Intel Core i5",
+		"precio": "194000",
+		"stock": "5",
+		"img": "gigabyte.jpg"
+	},
+	{
+		"id": 5,
+		"modelo": "BES PRO T4",
+		"marca": "Bangho",
+		"procesador": "AMD Ryzen 5",
+		"precio": "108000",
+		"stock": "5",
+		"img": "dell.jpg"
+	},
+	{
+		"id": 6,
+		"modelo": "Lattitude 15,6",
+		"marca": "Dell",
+		"procesador": "Intel Core i7",
+		"precio": "105000",
+		"stock": "15",
+		"img": "bangho.jpg"
+	}
+]

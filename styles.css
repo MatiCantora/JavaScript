@@ -1,0 +1,106 @@
+.botonModal {
+	border: none !important;
+	background-color: transparent;
+}
+
+.boton1 {
+	width: 100%;
+}
+
+.boton2 {
+	width: 100%;
+}
+
+.darkModeSwitch {
+	background-color: #adb5bd;
+	display: flex;
+	position: fixed;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid #e8f1f2;
+	border-radius: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	bottom: 20px;
+	left: 25px;
+	z-index: 99;
+}
+
+.darkModeSwitch span {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	color: #fff;
+	background: none;
+}
+
+.darkModeSwitch::after {
+	display: block;
+	background-color: #fffbf5;
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: unset;
+	border-radius: 3rem;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+	content: "";
+}
+
+.darkModeSwitch.active {
+	background-color: #fdd384;
+}
+
+.darkModeSwitch.active::after {
+	left: unset;
+	right: 0;
+}
+
+body.dark {
+	background-color: #2a2438;
+	color: #dbd8e3;
+}
+body.dark div.card {
+	background-color: #352f44;
+}
+body.dark div.carta {
+	background-color: #352f44;
+}
+body.dark div.contacto__box {
+	background-color: #352f44;
+}
+body.dark iframe {
+	border: 10px solid #352f44;
+}
+
+.categoria {
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+.amd {
+	background-color: #d11616;
+	color: #dbd8e3;
+}
+.amd:hover {
+	background-color: #a31313;
+}
+.intel {
+	background-color: #1657d1;
+	color: #dbd8e3;
+}
+.intel:hover {
+	background-color: #1350a3;
+}
+
+.carritoOcupado {
+	background-color: #d9ec28;
+	border-radius: 54% 0;
+	color: #2a2438;
+	padding: 0.85rem;
+	border: none;
+}
