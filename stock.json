@@ -52,5 +52,23 @@
 		"precio": "105000",
 		"stock": "15",
 		"img": "bangho.jpg"
+	},
+	{
+		"id": 7,
+		"modelo": "HP Pavilion 15",
+		"marca": "HP",
+		"procesador": "AMD Ryzen 7 3600",
+		"precio": "138000",
+		"stock": "4",
+		"img": "pavilion.webp"
+	},
+	{
+		"id": 8,
+		"modelo": "Lenovo 13' Pro",
+		"marca": "Lenovo",
+		"procesador": "AMD Athlon 8600 ",
+		"precio": "84000",
+		"stock": "7",
+		"img": "lenovo2.webp"
 	}
 ]

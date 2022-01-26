@@ -3,11 +3,12 @@
 	background-color: transparent;
 }
 
-.boton1 {
+.button-home {
+	margin-bottom: 5px;
 	width: 100%;
 }
-
-.boton2 {
+.button-home-sec {
+	margin-bottom: 5px;
 	width: 100%;
 }
 
@@ -75,32 +76,27 @@ body.dark div.contacto__box {
 body.dark iframe {
 	border: 10px solid #352f44;
 }
+body.dark .button-home-sec {
+	background-color: #fff;
+	color: rgba(0, 0, 0, 0.5);
+}
+body.dark .button-home-sec:hover {
+	background-color: #fdd384;
+}
 
 .categoria {
-	font-size: 1.4rem;
+	font-size: 1.7rem;
 	text-align: center;
 	font-weight: bold;
 	transition: all 0.5s ease;
-}
-.amd {
-	background-color: #d11616;
-	color: #dbd8e3;
-}
-.amd:hover {
-	background-color: #a31313;
-}
-.intel {
-	background-color: #1657d1;
-	color: #dbd8e3;
-}
-.intel:hover {
-	background-color: #1350a3;
+	border: 2px solid #000;
 }
 
 .carritoOcupado {
-	background-color: #d9ec28;
-	border-radius: 54% 0;
+	background-color: #dbd8e3;
+	border-radius: 20%;
 	color: #2a2438;
-	padding: 0.85rem;
+	padding: 10px;
 	border: none;
+	width: 3rem;
 }
